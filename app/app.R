@@ -6,7 +6,8 @@ ui = fluidPage(
     theme = shinytheme("readable"),
 
     # Application title
-    titlePanel(h1(align = "center", "Data Normality Check")),
+    titlePanel(h1(align = "center", "Data Normality Check"),
+               windowTitle = "Data Normality Check"),
     
     br(),
     br(),
