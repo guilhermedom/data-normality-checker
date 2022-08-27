@@ -81,7 +81,7 @@ server = function(input, output) {
             hist(data, main = "Data Histogram")
         })
         output$qqplotID = renderPlot({
-            qqnorm(data)
+            qqnorm(data, main = "Q-Q Plot")
             qqline(data)
         })
     })
