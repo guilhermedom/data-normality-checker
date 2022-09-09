@@ -24,7 +24,7 @@ Then, load the Shiny library and run the file "app.R":
 
 ```
 library(shiny)
-runApp("app.R")
+runApp("app/app.R")
 ```
 
 The app will start on a new browser tab in your default browser.
